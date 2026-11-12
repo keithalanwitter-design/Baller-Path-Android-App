@@ -1,0 +1,6 @@
+{
+  "name": "Baller Path",
+  "description": "Basketball development prototype guided by Coach Keith with Today, Plan, Work + Feedback, and Account screens using local sample data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

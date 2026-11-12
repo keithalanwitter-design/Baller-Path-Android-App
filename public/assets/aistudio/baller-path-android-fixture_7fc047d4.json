@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "mode": "fictional_demo",
+  "player": {
+    "id": "demo-maya",
+    "displayName": "Maya Brooks",
+    "grade": "7th grade",
+    "position": "Guard",
+    "coachName": "Coach Keith"
+  },
+  "plan": {
+    "focus": "Find useful space after you pass.",
+    "why": "Give a driving teammate room and stay available for the next pass.",
+    "successStandard": "Explain what you noticed and choose an action that fits the team’s spacing.",
+    "reviewLabel": "At your next check-in"
+  },
+  "practice": {
+    "id": "demo-pass-look-decide",
+    "title": "Pass, Look, Decide",
+    "durationMinutes": 8,
+    "steps": [
+      {"id": "pass", "title": "Pass", "durationSeconds": 120, "cue": "Make the pass, then get your eyes back to the play."},
+      {"id": "look", "title": "Look", "durationSeconds": 180, "cue": "See where your teammate is going and where help is standing."},
+      {"id": "decide", "title": "Decide", "durationSeconds": 180, "cue": "Cut when the lane and your spacing allow it. If your teammate drives, give them room and stay available."}
+    ],
+    "reflectionPrompt": "What did you notice about the lane, and what did you choose to do?"
+  },
+  "scenarios": [
+    {"id": "ready", "label": "Practice ready", "primaryAction": "Start practice", "savedStepId": null, "reflectionDraft": null, "submittedReflection": null, "sampleCoachResponse": null},
+    {"id": "in_progress", "label": "Practice in progress", "primaryAction": "Resume practice", "savedStepId": "look", "reflectionDraft": null, "submittedReflection": null, "sampleCoachResponse": null},
+    {"id": "draft", "label": "Reflection draft saved", "primaryAction": "Finish reflection", "savedStepId": null, "reflectionDraft": "My teammate started to drive, so I stayed wide", "submittedReflection": null, "sampleCoachResponse": null},
+    {"id": "awaiting_coach", "label": "Awaiting coach", "primaryAction": "Open work", "savedStepId": null, "reflectionDraft": null, "submittedReflection": "My teammate started to drive, so I stayed wide to give them room.", "sampleCoachResponse": null},
+    {"id": "feedback_ready", "label": "Sample feedback ready", "primaryAction": "Read feedback", "savedStepId": null, "reflectionDraft": null, "submittedReflection": "My teammate started to drive, so I stayed wide to give them room.", "sampleCoachResponse": {"label": "Sample Coach Response · Coach Keith", "text": "You saw the drive and gave your teammate space. Next time, look again when the driver stops or passes out.", "nextAdjustment": "Walk through two reps. Say what changed in the lane before deciding whether to move."}}
+  ]
+}
